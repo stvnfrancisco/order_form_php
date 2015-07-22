@@ -16,7 +16,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Fill in the order info</h1>
+        <h1>Order Form</h1>
 
         <form action="order.php">
             <div class="form-group">
@@ -28,20 +28,20 @@
                 <input id="downtown_address" name="downtown_address" class="form-control" type="text">
             </div>
             <div class="form-group">
-                <label for="northwest_address">northwest address</label>
-                <input id="northwest_address" name="northwest_address" class="form-control" type="text">
-            </div>
-            <div class="form-group">
-                <label for="south_address">south address</label>
-                <input id="south_address" name="south_address" class="form-control" type="text">
-            </div>
-            <div class="form-group">
                 <label for="downtown_order">downtown order</label>
                 <input id="downtown_order" name="downtown_order" class="form-control" type="text">
             </div>
             <div class="form-group">
+                <label for="northwest_address">northwest address</label>
+                <input id="northwest_address" name="northwest_address" class="form-control" type="text">
+            </div>
+            <div class="form-group">
                 <label for="northwest_order">northwest order</label>
                 <input id="northwest_order" name="northwest_order" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+                <label for="south_address">south address</label>
+                <input id="south_address" name="south_address" class="form-control" type="text">
             </div>
             <div class="form-group">
                 <label for="south_order">south order</label>
