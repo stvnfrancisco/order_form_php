@@ -17,12 +17,23 @@
 <body>
     <p>Hi <?php echo $recipient; ?>, </p>
     <p>Just making my weekly order. Details are below.</p>
+    <br>
+      <hr>
     <p><?php echo $downtown_order; ?></p>
+    <p>for</p>
     <p><?php echo $downtown_address; ?></p>
+    <br>
+      <hr>
     <p><?php echo $northwest_order; ?></p>
+    <p>for</p>
     <p><?php echo $northwest_address; ?></p>
+    <br>
+      <hr>
     <p><?php echo $south_order; ?></p>
+    <p>for</p>
     <p><?php echo $south_address; ?></p>
+    <br>
+      <hr>
     <p>Thanks,</p>
     <p><?php echo $author; ?></p>
 

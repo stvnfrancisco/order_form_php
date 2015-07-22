@@ -12,6 +12,7 @@
 <html>
 <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+      <link href="styles/styles2.css" rel="stylesheet" type="text/css">
     <title>Create an order</title>
 </head>
 <body>
