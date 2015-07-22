@@ -16,7 +16,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Fill in the recipients name</h1>
+        <h1>Fill in the order info</h1>
 
         <form action="order.php">
             <div class="form-group">
