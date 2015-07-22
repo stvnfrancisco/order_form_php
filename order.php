@@ -1,14 +1,13 @@
 <?php
-    $recipient = "Ron";
-    $downtown_address = "208 SW 5th Ave #105, Portland, OR 97204";
-    $northwest_address = "1978 19th Ave, Portland, OR 97209";
-    $south_address = "1493 SW 2nd Ave, Portland, OR 97201";
-    $downtown_order = "8,000,000 Cups";
-    $northwest_order = "500 Cups";
-    $south_order = "1000 Cups";
-    $author = "Burt";
+    $recipient = $_GET["recipient"];
+    $downtown_address = $_GET["downtown_address"];
+    $northwest_address = $_GET["northwest_address"];
+    $south_address = $_GET["south_address"];
+    $downtown_order = $_GET["downtown_order"];
+    $northwest_order = $_GET["northwest_order"];
+    $south_order = $_GET["south_order"];
+    $author = $_GET["author"];
 ?>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -21,10 +20,14 @@
     <p><?php echo $downtown_order; ?></p>
     <p><?php echo $downtown_address; ?></p>
     <p><?php echo $northwest_order; ?></p>
-    <p><?php echo $northwest_address; ?>9</p>
+    <p><?php echo $northwest_address; ?></p>
     <p><?php echo $south_order; ?></p>
     <p><?php echo $south_address; ?></p>
     <p>Thanks,</p>
     <p><?php echo $author; ?></p>
+
+      <form action="form.php">
+        <button type="submit" class="btn">Back to form</button>
+      </form>
 </body>
 </html>
